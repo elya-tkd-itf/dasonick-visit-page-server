@@ -4,6 +4,10 @@ import psycopg2
 
 app = Flask(__name__)
 
+@app.route("/")
+def hello():
+    return "hello", 200
+
 @app.route("/knit_urls", methods=['GET'])
 def get_knit_urls():
     pass
