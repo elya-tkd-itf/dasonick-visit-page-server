@@ -1,0 +1,6 @@
+flask
+requests
+python-firebase
+jwt
+gunicorn
+APScheduler==3.0.0
