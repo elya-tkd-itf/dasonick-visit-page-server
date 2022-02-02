@@ -1,6 +1,7 @@
 flask
 requests
 psycopg2
+flask_cors
 python-firebase
 jwt
 gunicorn
